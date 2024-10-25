@@ -1,0 +1,26 @@
+HOTELES
+
+name,
+description,
+price
+address
+lat
+lon,
+rating,
+cityId,
+images:[
+  {
+  "url": "https://hotels-api.academlo.tech/uploads/2839875.jpg",
+  "hotelId": 1
+  },
+
+]
+
+
+
+EN HOTELES TENGO QUE CREAR UNA COLUMNA LLAMADA CITYID
+
+1-definco la relacion en  static associate(models) (belogsTO)
+2-definco la relacion en  static associate(models)  (hasMany)
+3- creamos la columna en el modelo.
+4- cramos la columna en la migracion. En caso ya haya sido creada, creo una nueva migracion con la opcion de añadir una columna a la tabla (c)
